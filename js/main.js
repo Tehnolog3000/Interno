@@ -33,31 +33,31 @@ const swiper = new Swiper('.swiper',{
         origin: 'bottom',
         distance: '60px',
         duration: 3000,
-        delay: 600,
+        delay: 400,
         // reset:true,
     })
     // hero
     sr.reveal('.hero__text', {origin: 'top'})
 
     // steps
-    sr.reveal('.steps__step', {distance: '100px', interval:100})
+    sr.reveal('.steps__step', {distance: '100px', interval:70})
 
     // about
     sr.reveal('.about__text', {origin: 'left'})
-    sr.reveal('.about__img', {origin: 'right', delay:800})
+    sr.reveal('.about__img', {origin: 'right', delay:500})
 
     // testimonial
-    sr.reveal('.testimonial__bg', {delay:800})
+    sr.reveal('.testimonial__bg', {delay:500})
     sr.reveal('.testimonial__tittle')
-    sr.reveal('.testimonial__slider', {delay:1000})
+    sr.reveal('.testimonial__slider', {delay:700})
 
     // brands
-    sr.reveal('.brands__img', {delay:600, distance: '100px', interval:100})
+    sr.reveal('.brands__img', {delay:500, distance: '100px', interval:100})
 
     // work
     sr.reveal('.work__tittle')
-    sr.reveal('.work__subtittle', {delay:800})
-    sr.reveal('.work__grid', {delay:1000})
+    sr.reveal('.work__subtittle', {delay:200})
+    sr.reveal('.work__grid', {delay:500})
 
     // stats
     sr.reveal('.stats')
@@ -68,22 +68,22 @@ const swiper = new Swiper('.swiper',{
 
     // news
     sr.reveal('.news__tittle')
-    sr.reveal('.news__subtittle', {delay:800})
+    sr.reveal('.news__subtittle', {delay:200})
     sr.reveal('.news__item', {
         distance: '100px',
-        interval: 100,
-        delay: 1000,
+        interval: 90,
+        delay: 400,
     })
 
     // contact
     sr.reveal('.contact__container')
-    sr.reveal('.contact__text', {delay:800})
+    sr.reveal('.contact__text', {delay:500})
 
     //footer
     sr.reveal('.footer__item', {
         distance: '100px',
-        interval: 100,
-        delay: 1000,
+        interval: 90,
+        delay: 700,
     })
     sr.reveal('.footer__copyright');
  
